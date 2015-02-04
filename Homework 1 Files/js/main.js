@@ -159,12 +159,10 @@ if(Modernizr.canvas) {
 
             context4.beginPath();
             context4.arc(75,75,50,Math.PI,2*Math.PI);
-            //context4.moveTo(75,75);
-            //context4.bezierCurveTo(65,65, 65,75,200,75);
-            context4.bezierCurveTo(75,30,60,40,75,75);
-            //context4.lineTo(25,75);
-            //context4.closePath();
-
+            context4.bezierCurveTo(90,28,75,75,75,75);
+            context4.bezierCurveTo(45,28,25,75,25,75);
+            context4.closePath();
+            context4.fill();
             context4.stroke();
 
 
