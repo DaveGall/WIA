@@ -181,6 +181,21 @@ if(Modernizr.canvas) {
 
 //Draw text here
 
+    var myCanvas5 = document.getElementById("Canvas5");
+    if(myCanvas5 && myCanvas5.getContext)
+        var context5 = myCanvas5.getContext("2d");
+    if(context5){
+
+        var myText = "Hello, my name is David!";
+        context5.font = "22pt Helvetica";
+        context5.fillStyle = "#4869FF";
+        context5.strokeStyle = "#42E3E8";
+        context5.fillText(myText,50,50);
+        context5.strokeText(myText,50,50);
+
+
+    }
+
     /*******************************************
      PART 6
 
