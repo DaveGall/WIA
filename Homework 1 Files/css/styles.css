@@ -1,0 +1,23 @@
+/* David Gall, 02/03/15, WIA1502 */
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: #ffffff;
+}
+
+#canvases {
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+
+.canvas {
+    border: 1px solid #000000;
+}
+
