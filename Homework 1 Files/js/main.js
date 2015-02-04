@@ -35,6 +35,24 @@ Reminder - set the style first then draw.
 ********************************************/
 
 //Draw Rectangle here
+window.onload = function(){
+
+    var myCanvas = document.getElementById("Canvas1");
+    if(myCanvas && myCanvas.getContext){
+        var context = myCanvas.getContext("2d");
+
+        if(context){
+
+            context.fillStyle = "blue";
+            context.strokeStyle = "black";
+            context.lineWidth = 4;
+            context.fillRect(0,0,50,100);
+            context.strokeRect(0,0,50,100);
+            context.stroke();
+
+        }
+    }
+
 
 
 /*******************************************
@@ -53,6 +71,30 @@ Use the arc method
 //Draw Circle here
 
 
+    var myCanvas2 = document.getElementById("Canvas2");
+    if(myCanvas2 && myCanvas2.getContext){
+        var context2 = myCanvas2.getContext("2d");
+        if(context2){
+
+            context2.globalAlpha = .5;
+            context2.fillStyle = "red";
+            context2.strokeStyle = "black";
+
+            context2.beginPath();
+            context2.arc(50,50,20, 0,2*Math.PI);
+            context2.fill();
+
+            context2.stroke();
+
+
+        }
+    }
+
+
+
+
+
+
 
 
 /*******************************************
@@ -69,6 +111,25 @@ Height and width and color are up to you.
 
 //Draw Star here
 
+    var myCanvas3 = document.getElementById("Canvas3");
+    if(myCanvas3 && myCanvas3.getContext){
+        var context3 = myCanvas3.getContext("2d");
+        if(context3){
+
+            context3.strokeStyle = "black";
+            context3.lineWidth = 4;
+            context3.beginPath();
+            context3.moveTo(100,100);
+            context3.lineTo(140,20);
+            context3.lineTo(190, 100);
+            context3.lineTo(280,80);
+            context3.lineTo(230,170);
+            context3.lineTo(270,190);
+            context3.stroke();
+
+
+        }
+    }
 
 /*******************************************
 PART 4
@@ -125,3 +186,4 @@ You must use at least 3 different methods.
 // Draw scene here
 
 
+};
