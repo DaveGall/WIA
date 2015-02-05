@@ -211,6 +211,27 @@ if(Modernizr.canvas) {
 
 //Draw images here
 
+    var myCanvas6 = document.getElementById("Canvas6");
+
+    if(myCanvas6 && myCanvas6.getContext){
+        var context6 = myCanvas6.getContext("2d");
+        if(context6){
+
+
+            var image = document.getElementById("img1");
+
+
+            //This draws the image at full size starting at the point 0,0.
+            context6.drawImage(image,0,0);
+
+            //This cuts the picture in half and displays it at the point 0,0
+            context6.drawImage(image, 0,0,image.width/2, image.height/2);
+
+            //This will draw one of the little red circles at the point 0,0
+            context6.drawImage(image, 1252,574,126,132,0,0,126,132);
+
+        }
+    }
 
     /*******************************************
      PART 7
