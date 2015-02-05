@@ -329,11 +329,11 @@ if(Modernizr.canvas) {
             context7.stroke();
 
             //Creates a little mountain and some land.
-            context7.fillStyle = "#3837FF";
+            context7.fillStyle = "#457F41";
             context7.fillRect(0, 250, 500, 50);
             context7.stroke();
 
-            context7.strokeStyle = "#34CC2B";
+            context7.strokeStyle = "#457F41";
             context7.lineWidth = 2;
             context7.fillStyle = "#457F41";
 
@@ -342,6 +342,38 @@ if(Modernizr.canvas) {
             context7.bezierCurveTo(10,60,20,250,500,250);
             context7.closePath();
             context7.fill();
+            context7.stroke();
+
+            //This will create the house box.
+            context7.fillStyle = "#7F241B";
+            context7.fillRect(440, 200, 50, 50);
+            context7.stroke();
+
+            //This will create the little roof.
+            context7.fillStyle = "#CC3A2B";
+            context7.lineWidth = 1;
+            context7.strokeStyle ="#CC3A2B";
+            context7.beginPath();
+            context7.moveTo(440,200);
+            context7.lineTo(466,156);
+            context7.lineTo(491,200);
+            context7.closePath();
+            context7.fill();
+            context7.stroke();
+
+            //This will create a little door.
+            context7.fillStyle = "#FFDDD4";
+            context7.fillRect(460,235,10,15);
+            context7.stroke();
+
+            //This will create the left window..
+            context7.fillStyle = "#FFFFFF";
+            context7.fillRect(444,205,10,10);
+            context7.stroke();
+
+            //This will create the right window.
+            context7.fillStyle = "#FFFFFF";
+            context7.fillRect(474,205,10,10);
             context7.stroke();
 
 
