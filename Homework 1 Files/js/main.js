@@ -247,5 +247,106 @@ if(Modernizr.canvas) {
 // Draw scene here
 
 
+    var myCanvas7 = document.getElementById("Canvas7");
+    if(myCanvas7 && myCanvas7.getContext){
+        var context7 = myCanvas7.getContext("2d");
+        if(context7){
+
+            //Creates a black background
+            context7.fillStyle = "black";
+            context7.lineWidth = 4;
+            context7.fillRect(0, 0, 500, 300);
+            context7.stroke();
+
+
+            //small star on the left side
+            context7.strokeStyle = "#E5FFF8";
+            context7.lineWidth = 2;
+            context7.fillStyle = "#F6FFF9";
+            context7.beginPath();
+            context7.moveTo(25,25);
+            context7.lineTo(34,8);
+            context7.lineTo(42,25);
+            context7.lineTo(61,28);
+            context7.lineTo(47,41);
+            context7.lineTo(51,60);
+            context7.lineTo(34,51);
+            context7.lineTo(17,60);
+            context7.lineTo(20,41);
+            context7.lineTo(6,28);
+            context7.closePath();
+            context7.fill();
+            context7.stroke();
+
+            //small star on the right side
+            context7.strokeStyle = "#E5FFF8";
+            context7.lineWidth = 2;
+            context7.fillStyle = "#F6FFF9";
+            context7.beginPath();
+            context7.moveTo(458,25);
+            context7.lineTo(467,8);
+            context7.lineTo(475,25);
+            context7.lineTo(494,29);
+            context7.lineTo(480,41);
+            context7.lineTo(484,60);
+            context7.lineTo(467,51);
+            context7.lineTo(450,60);
+            context7.lineTo(453,41);
+            context7.lineTo(439,28);
+            context7.closePath();
+            context7.fill();
+            context7.stroke();
+
+            //Smaller star on the right
+            context7.strokeStyle = "#E5FFF8";
+            context7.lineWidth = 2;
+            context7.fillStyle = "#F6FFF9";
+            context7.beginPath();
+            context7.moveTo(435,40);
+            context7.lineTo(438,33);
+            context7.lineTo(441,40);
+            context7.lineTo(449,41);
+            context7.lineTo(444,47);
+            context7.lineTo(445,55);
+            context7.lineTo(438,51);
+            context7.lineTo(431,55);
+            context7.lineTo(432,47);
+            context7.lineTo(427,41);
+            context7.closePath();
+            context7.fill();
+            context7.stroke();
+
+
+
+            //A half moon in the sky
+            context7.lineWidth = 1;
+            context7.fillStyle = "#E5FFF8";
+
+            context7.beginPath();
+            context7.arc(370,75,30,.5*Math.PI,1.5*Math.PI);
+            context7.closePath();
+            context7.fill();
+            context7.stroke();
+
+            //Creates a little mountain and some land.
+            context7.fillStyle = "#3837FF";
+            context7.fillRect(0, 250, 500, 50);
+            context7.stroke();
+
+            context7.strokeStyle = "#34CC2B";
+            context7.lineWidth = 2;
+            context7.fillStyle = "#457F41";
+
+            context7.beginPath();
+            context7.moveTo(0,250);
+            context7.bezierCurveTo(10,60,20,250,500,250);
+            context7.closePath();
+            context7.fill();
+            context7.stroke();
+
+
+        }
+    }
+
 //};
 }
