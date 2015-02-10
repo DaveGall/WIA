@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="FlexBox/css/jquery.flexbox.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+<div id="Container" class="container">
+
+    <div class="filterBox">
+        <button class="filter" data-filter="all">Show All</button>
+        <button class="filter" data-filter=".category-1">Category 1</button>
+        <button class="filter" data-filter=".category-2">Category 2</button>
+        <button class="filter" data-filter=".category-3">Category 3</button>
+
+        <button class="sort" data-sort="default">Default</button>
+        <button class="sort" data-sort="myorder:asc">Ascending</button>
+        <button class="sort" data-sort="myorder:desc">Descending</button>
+        <button class="sort" data-sort="random">Random</button>
+    </div>
+
+    <div class="mix category-1" data-myorder="1"><h2>Box 1</h2></div>
+    <div class="mix category-2" data-myorder="2"><h2>Box 2</h2></div>
+    <div class="mix category-3" data-myorder="3"><h2>Box 3</h2></div>
+    <div class="mix category-2" data-myorder="4"><h2>Box 4</h2></div>
+
+    <div class="mix category-1" data-myorder="5"><h2>Box 5</h2></div>
+    <div class="mix category-3" data-myorder="6"><h2>Box 6</h2></div>
+    <div class="mix category-1" data-myorder="7"><h2>Box 7</h2></div>
+    <div class="mix category-2" data-myorder="8"><h2>Box 8</h2></div>
+
+    <div class="mix category-1" data-myorder="9"><h2>Box 9</h2></div>
+    <div class="mix category-3" data-myorder="10"><h2>Box 10</h2></div>
+    <div class="mix category-1" data-myorder="11"><h2>Box 11</h2></div>
+    <div class="mix category-2" data-myorder="12"><h2>Box 12</h2></div>
+
+    <div class="mix category-2" data-myorder="13"><h2>Box 13</h2></div>
+    <div class="mix category-3" data-myorder="14"><h2>Box 14</h2></div>
+    <div class="mix category-1" data-myorder="15"><h2>Box 15</h2></div>
+    <div class="mix category-3" data-myorder="16"><h2>Box 16</h2></div>
+</div>
+
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="FlexBox/js/jquery.flexbox.min.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

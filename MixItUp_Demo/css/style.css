@@ -1,0 +1,63 @@
+
+/* David Gall, 02/10/15, MixItUp plugin Assignment */
+
+body {
+    background-color: #000000;
+}
+
+#Container .mix {
+    display: none;
+}
+
+.container {
+    padding: 2% 2% 0;
+    text-align: justify;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: row;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background-image: linear-gradient(#2D39FF, #20A2FF);
+}
+.container:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.filterBox {
+    margin-bottom: 5%;
+    text-align: center;
+}
+.filterBox .filter, .filterBox .sort {
+    display: inline-block;
+}
+button {
+    margin-left: 2%;
+    padding: 5px;
+    border-radius: 8px;
+    background-image: linear-gradient(#4ACC10, #47B217);
+}
+
+button:hover {
+    background-image: linear-gradient(#47B217, #4ACC10);
+}
+
+
+.container .mix {
+    text-align: center;
+    width: 20%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    padding: 2%;
+    vertical-align: top;
+    display: none;
+    box-shadow: 4px 4px 4px #00087F;
+}
+
+.container .mix:before {
+    content: '';
+    display: inline-block;
+    /*padding-top: 60%;*/
+}
