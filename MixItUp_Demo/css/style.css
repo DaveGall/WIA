@@ -5,6 +5,11 @@ body {
     background-color: #000000;
 }
 
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
 #Container .mix {
     display: none;
 }
@@ -12,6 +17,7 @@ body {
 .container {
     padding: 2% 2% 0;
     text-align: justify;
+    width: 90%;
     margin: auto;
     display: inline-flex;
     flex-direction: row;
@@ -67,6 +73,24 @@ button:hover {
     background-color: #000000;
     color: #ffffff;
 }
+
+.star {
+    background-color: #E0FF31;
+}
+
+.girl {
+    background-color: #9315E5;
+}
+
+.girlBG {
+    box-shadow: 4px 4px 4px #5D0098;
+    border-radius: 10px;
+}
+
+
+
+
+
 
 
 
