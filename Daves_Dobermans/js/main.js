@@ -219,6 +219,17 @@ $(function(){
     });
 });
 
+$("#lightText").click(function(){
+    $("p").animate({
+        color:"#FFFFFF"
+    })
+
+});
+$("#darkText").click(function(){
+    $("p").animate({
+        color:"#000000"
+    })
+});
 
 google.load("visualization", "1", {packages:["corechart","map"]});
 google.setOnLoadCallback(drawChart);
