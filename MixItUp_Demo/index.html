@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>MixItUp Plug In Trial</title>
+    <link href="css/style.css" rel="stylesheet"/>
+
+</head>
+<body>
+<h1>MixItUp Trial</h1>
+<div id="Container" class="container">
+
+    <div class="filterBox">
+        <button class="filter" data-filter="all">Show All</button>
+        <button class="filter" data-filter=".blackBG">Black Tiles</button>
+        <button class="filter" data-filter=".girl">Girl Eating</button>
+        <button class="filter" data-filter=".star">Star Pattern</button>
+
+        <button class="sort" data-sort="default">Default</button>
+        <button class="sort" data-sort="myorder:asc">Ascending</button>
+        <button class="sort" data-sort="myorder:desc">Descending</button>
+        <button class="sort" data-sort="random">Random</button>
+    </div>
+
+    <div class="mix blackBG" data-myorder="1"><h2>1</h2></div>
+    <div class="mix girl" data-myorder="2"><h2>2</h2></div>
+    <div class="mix star" data-myorder="3"><h2>3</h2></div>
+    <div class="mix girl" data-myorder="4"><h2>4</h2></div>
+
+    <div class="mix blackBG" data-myorder="5"><h2>5</h2></div>
+    <div class="mix star" data-myorder="6"><h2>6</h2></div>
+    <div class="mix blackBG" data-myorder="7"><h2>7</h2></div>
+    <div class="mix girl" data-myorder="8"><h2>8</h2></div>
+
+    <div class="mix blackBG" data-myorder="9"><h2>9</h2></div>
+    <div class="mix star" data-myorder="10"><h2>10</h2></div>
+    <div class="mix blackBG" data-myorder="11"><h2>11</h2></div>
+    <div class="mix girl" data-myorder="12"><h2>12</h2></div>
+
+    <div class="mix girl" data-myorder="13"><h2>13</h2></div>
+    <div class="mix star" data-myorder="14"><h2>14</h2></div>
+    <div class="mix blackBG" data-myorder="15"><h2>15</h2></div>
+    <div class="mix star" data-myorder="16"><h2>16</h2></div>
+</div>
+
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

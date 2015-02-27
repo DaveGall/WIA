@@ -1,14 +1,8 @@
 
 /* David Gall, 02/10/15, MixItUp plugin Assignment */
 
-body {
-    background-color: #000000;
-}
 
-h1 {
-    text-align: center;
-    color: #ffffff;
-}
+
 
 #Container .mix {
     display: none;
@@ -89,7 +83,7 @@ button:hover {
     background-position: center;
     background-color: #FC65E8;
 }
-h2 {
+.imageNumber {
     color: #232CF2;
 }
 

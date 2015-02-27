@@ -1,0 +1,176 @@
+
+body {
+    background-color: #000000;
+}
+.main {
+    border: 1px solid #000000;
+    overflow: hidden;
+    width: 1020px;
+    margin: auto;
+    background-image: linear-gradient(#E99663, #E5A177);
+}
+
+p {
+    text-indent: 10px;
+}
+h1 {
+    color: #ffffff;
+}
+/* Jumbo Display */
+
+.jumboDisplay {
+    position: relative;
+    width: 1020px;
+    height: 320px;
+}
+
+.largeLeft {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: 4px 4px 4px #000000;
+}
+
+.topRight {
+    width: 250px;
+    height: 140px;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+    box-shadow: 4px 4px 4px #000000;
+}
+.bottomRight {
+    width: 250px;
+    height: 140px;
+    position: absolute;
+    top: 170px;
+    left: 330px;
+    box-shadow: 4px 4px 4px #000000;
+}
+
+.siteLinks {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    box-shadow: 4px 4px 4px #000000;
+}
+
+.center {
+    text-align: center;
+}
+.centerArticle {
+    margin: 10px auto;
+}
+/* End Jumbo Display */
+
+.headerList li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+aside, section {
+    float: left;
+    margin: 20px 20px 20px 10px;
+}
+aside {
+    width: 250px;
+    margin-left: 35px;
+	border-right: 1px solid #999;
+}
+
+article {
+    width: 660px;
+}
+
+
+footer {
+    clear: both;
+    border-top: 1px solid #000000;
+    margin-top: 20px;
+}
+
+/* Image styling start */
+
+#Container .mix {
+    display: none;
+}
+
+.container {
+    padding: 2% 2% 0;
+    text-align: justify;
+    width: 90%;
+    margin: 10px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    background-image: linear-gradient(#B27D5C, #E5A177);
+}
+
+.container:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.filterBox {
+    margin-bottom: 5%;
+    text-align: center;
+}
+.filterBox .filter, .filterBox .sort {
+    display: inline-block;
+}
+button {
+    margin-left: 2%;
+    padding: 5px;
+    border-radius: 8px;
+    background-image: linear-gradient(#654735, #E5A177);
+    cursor: pointer;
+    color: #ffffff;
+}
+
+button:hover {
+    background-image: linear-gradient(#E5A177, #654735);
+}
+
+
+.container .mix {
+    text-align: center;
+    width: 20%;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    vertical-align: top;
+    display: none;
+
+}
+.image {
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #655247;
+}
+
+.container .mix:before {
+    content: '';
+    display: inline-block;
+}
+
+/* Image styling end */
+
+.sidebarCanvas, #gif {
+    margin-left: -18px;
+}
+video {
+    margin-left: -22px;
+    margin-top: 10px;
+    border: 6px inset;
+}
+
+/* About page styling start */
+
+#map_div {
+    margin: 20px 260px;
+}
+
+/* About page styling end */
