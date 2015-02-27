@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Doberman Breeder</title>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <link href="css/jquery-ui.min.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <script src="js/modernizr.js"></script>
+
+</head>
+<body>
+
+<div class="main">
+    <header>
+        <h1 class="center">Dave's Dobermans</h1>
+        <ul class="headerList">
+            <li class="active"><a href="#">Home</a> </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="dogs.html">Dogs</a> </li>
+        </ul>
+    </header>
+    <hr>
+    <div class="jumboDisplay">
+        <div class="largeLeft"><img src="images/LargeLeft.jpg" alt="Doberman Running"/> </div>
+        <div class="topRight"><img src="images/top_bottomRight.jpg" alt="doberman resting" class="scale"></div>
+        <div class="bottomRight"><img src="images/top_bottomRight.jpg" alt="doberman resting"></div>
+        <div id="piechart" style="width: 400px; height: 300px;" class="siteLinks">
+
+        </div>
+    </div>
+<hr>
+    <aside>
+        <h3>Extras</h3>
+
+            <canvas id="Canvas3" width="250" height="250" class="sidebarCanvas canvas">Sorry your browser does not support canvas.</canvas>
+            <canvas id="Canvas4" width="250" height="250" class="sidebarCanvas canvas">Sorry your browser does not support canvas.</canvas>
+
+        <div id="gif">
+            <img src="videos/Animated-Logo.gif">
+        </div>
+
+        <video id="vid" width="250" height="300" onClick="pauseToggle()">
+
+            <source src="videos/Duke_Video.mov" type="video/mov"/>
+            <source src="videos/Duke_Video_Project-mp4.mp4" type="video/mp4">
+            <source src="videos/Duke_Video_Project-ogg.ogv" type="video/ogg"/>
+
+            Video is not supported for your browser.
+
+        </video>
+
+    </aside>
+
+    <section>
+        <button id="lightText">Lighter Text</button>
+        <button id="darkText">Darker Text</button>
+        <article>
+            <h2>Top Quality</h2>
+            <p>We only breed champions here at Dave's Dobermans. We believe that when you are looking for a doberman you are looking for the best
+            that you can find. That is why we are here, to give you a top quality dog who will produce top quality results. We offer the most agile
+            of dobermans here at Dave's Dobermans and they will give the competition something to strive for when they are done. We can trace the bloodlines
+            of our dogs back six generations and have proof on hand as to where each dog came from. </p>
+        </article>
+        <hr>
+        <article>
+            <a name="top"><h2>First Time Visitor</h2></a>
+            <p>If you are a first time visitor to this site and/or a first time Doberman owner then take a moment to read
+            some points of interest about our process and Dobermans in general. Feel free to contact us if you have any
+            questions. You can find all that information in the Contact section.</p>
+            <ul>
+                <li><a href="#aggressive">Dobermans are aggressive.</a></li>
+                <li><a href="#kids">Dobermans are not good with kids.</a></li>
+                <li><a href="#cropped">Tails cropped or not.</a></li>
+                <li><a href="#ears">Ears cut and shaped.</a></li>
+                <li><a href="#you">What we do for you.</a></li>
+            </ul>
+
+            <a name="aggressive"><h3>Dobermans are Aggressive</h3></a>
+            <p>
+                This is a very common misconeption among those unfamiliar with the breed. Dobermans have this reputation
+                from a long history of being bred as guard dogs and trained to attack and be particularly protective.
+                They were originally bred in Germany during WW2 to have a dog that would protect, kill and intimidate
+                your enemies, which is one reason the ears were done and the tails were cropped. They looked fierce.
+                This has not been true for a long time, as breeders it's our job to make sure the customer gets what they
+                want and that we breed responsibly. This means that we only take Dobermans that have had a complete health
+                exam, that can pass a behavior test, their lines can be traced back 5 generations at least, and less important
+                have some kind of show or agility awards.
+            </p>
+            <p>
+                This has been true with breeders for some time now as we do not want to breed undesirable traits, so
+                the end result is a Doberman that is more well behaved than your lab. You can rest assured that your
+                new Doberman will not attack, maim or lash out at you or anyone else for that matter.
+            </p>
+            <hr>
+
+            <a name="kids"><h3>Dobermans and Kids</h3></a>
+            <p>
+                If you have children and are considering purchasing a doberman then you will have no worries about
+                the dogs attitude towards the children. First, our Dobermans are raised around children and second they
+                are very mild mannered and tolerant when it comes to children and actually any human. They get excited
+                to see people, kids and anyone because it means they get to play, which they love to do.
+            </p>
+            <hr>
+            <a name="cropped"><h3>Tails Cropped or Not</h3></a>
+            <p>
+                We normally crop our Dobermans tails before you even get to see them because it is best to do before
+                they are six months old. However, if you do not want their tail cropped you can request that ahead of time
+                and we will make sure your wishes are met. When we get agility dogs in then we don't crop their tail unless
+                requested because they use their tail as a rudder to keep them quick and agile.
+            </p>
+            <p>
+                So if you are thinking to crop or not it is a personal decision, it doesn't hurt the dogs in anyway as we
+                do it surgically under anesthesia and it heals very quickly.
+            </p>
+            <hr>
+            <a name="ears"><h3>Ears Cut and Shaped</h3></a>
+            <p>
+                This is definitely something that is a personal choice, a lot of veterinarians won't do the procedure
+                anymore. When we first started breeding we had our dobermans ears done and we had to drive quite a ways
+                to find someone willing to do it and I finally understood why. It is really a painful and traumatic event
+                for the dog, and since it does not help in any way whatsoever. So, like my mistake with my very first
+                Doberman I cropped his ears because it was the look that I wanted, and I vowed to never do it again.
+                It is six months of torture for the dog, having to change the bandages every few days and clean the
+                area so it doesn't get infected, it traumatizes the animal and they never forget it.
+            </p>
+            <p>
+                To show the temperament of Dobermans the whole time we took care of his ears no matter how much it hurt he
+                never once lashed out at us and he still loves us and is loyal today even though we put him through that
+                torture when he was little. So the choice is yours, but we will not do the ears nor do we know anyone in the area
+                that does that procedure.
+            </p>
+            <hr>
+            <a name="you"><h3>What We Do For You</h3></a>
+            <p>
+                We have Dobermans on site at all times and you are more than welcome to come and see them, play with
+                them and just get to know the breed. We have and provide the lineage of each dog that comes and goes
+                through our facility. Like I stated earlier, we do crop the tails for you unless otherwise instructed.
+                We send them to you with all their first shots and check ups. We provide our contact information in case
+                you have any questions or concerns with your Doberman. We provide you with information and forms to register
+                your dog with the AKC which also comes with some nice benefits as far as medical and tracking options in
+                case your dog gets lost or stolen.
+            </p>
+            <hr>
+            <a href="#top">To Top</a>
+        </article>
+    </section>
+
+
+   <footer>
+        <p>Thank you for visiting this site.</p>
+    </footer>
+
+</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/flashcanvas.js"></script>
+</body>
+</html>
